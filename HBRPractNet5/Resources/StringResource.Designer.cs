@@ -95,7 +95,7 @@ namespace ProyectoPropietaria.Resources {
                 return ResourceManager.GetString("Create", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Busca una cadena traducida similar a Fecha de creación.
         /// </summary>
