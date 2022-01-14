@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using ProyectoPropietaria.Resources;
+
+<div class="text-center">
+    <h1 class="display-4">@StringResource.Welcome</h1>
+</div>
+
+@await Component.InvokeAsync("UsuariosComponent")
